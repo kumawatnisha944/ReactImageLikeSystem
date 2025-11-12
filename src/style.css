@@ -1,0 +1,96 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.post {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.post-title {
+  margin: 16px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #eee;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+button:hover {
+  background: #ddd;
+}
+
+.liked {
+  background: #ff4d6d;
+  color: white;
+}
+
+.subscribe {
+  background: #1e88e5;
+  color: white;
+}
+
+.subscribed {
+  background: #43a047;
+  color: white;
+}
+
+.comment-section {
+  margin: 20px;
+}
+
+.comment-section input {
+  width: 75%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.comment-section button {
+  background: #1e88e5;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.comments-list {
+  margin-top: 15px;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+}
